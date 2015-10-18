@@ -1,1 +1,6 @@
-
+name: TTParkour
+author: TT
+version: "1.0.0"
+api: [1.0.0]
+description: Parkour core for TakeTwo. 
+main: TT\TTParkour\Main
