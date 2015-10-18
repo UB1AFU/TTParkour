@@ -23,7 +23,7 @@ class Main extends PluginBase implements Listener{
      public function onPlayerMove(PlayerMoveEvent $event){
          $player = $event->getPlayer();
          $floor = new Vector3($player->getFloorY() - 1);
-          if(($floor == 8)){
+          if($floor == 8){
              $player->teleport(118.50, 15, 126.50);
           }
      }
